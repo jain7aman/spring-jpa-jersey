@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <city id="1" name="Curitiba"  country_id="1"/>
+    <city id="2" name="Rio de Janeiro" country_id="1" />
+    <city id="3" name="Fortaleza" country_id="1" />
+    <city id="4" name="Manaus" country_id="1" />
+    <city id="5" name="New York" country_id="2" />
+    <city id="6" name="Los Angeles" country_id="2" />
+    <city id="7" name="Atlanta" country_id="2" />
+    <city id="8" name="Paris" country_id="3" />
+    <city id="9" name="Lyon" country_id="3" />
+</dataset>

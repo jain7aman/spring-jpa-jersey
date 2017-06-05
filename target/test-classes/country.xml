@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <country id="1" name="Brazil" />
+    <country id="2" name="United States"  />
+    <country id="3" name="France"  />
+</dataset>

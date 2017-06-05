@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5095" started-at="2017-06-05T18:39:55Z" finished-at="2017-06-05T18:40:00Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5095" started-at="2017-06-05T18:39:55Z" finished-at="2017-06-05T18:40:00Z">
+      <class name="br.com.cinq.sample.controller.AppControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2017-06-06T00:09:55Z" finished-at="2017-06-06T00:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3224" started-at="2017-06-06T00:09:55Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="63" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testAddNewCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testAddNewCities()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="testAddNewCities" duration-ms="154" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewCities -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="9" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testAddNewCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testDualLoadData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testDualLoadData()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="testDualLoadData" duration-ms="105" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDualLoadData -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="7" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testDualLoadData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testGetCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testGetCities()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="testGetCities" duration-ms="37" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCities -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testGetCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testLoadData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testLoadData()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="testLoadData" duration-ms="28" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadData -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testLoadData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="9" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testNoMatchingCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testNoMatchingCountry()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="testNoMatchingCountry" duration-ms="50" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoMatchingCountry -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.controller.AppControllerTest.testNoMatchingCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:br.com.cinq.sample.controller.AppControllerTest@51e2adc7]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- br.com.cinq.sample.controller.AppControllerTest -->
+      <class name="br.com.cinq.sample.dao.CountryDaoImplTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="6" started-at="2017-06-06T00:10:00Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CountryDaoImplTest.testGetAllCountries()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="setUp" is-config="true" duration-ms="85" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetAllCountries()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="testGetAllCountries" duration-ms="4" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCountries -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CountryDaoImplTest.testGetAllCountries()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CountryDaoImplTest.testSaveCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="setUp" is-config="true" duration-ms="43" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSaveCountry()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="testSaveCountry" duration-ms="3" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveCountry -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CountryDaoImplTest.testSaveCountry()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:br.com.cinq.sample.dao.CountryDaoImplTest@2353b3e6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- br.com.cinq.sample.dao.CountryDaoImplTest -->
+      <class name="br.com.cinq.sample.service.CityServiceImplTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.service.CityServiceImplTest@631330c]" name="setUp" is-config="true" duration-ms="311" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddCity()[pri:0, instance:br.com.cinq.sample.service.CityServiceImplTest@631330c]" name="testAddCity" duration-ms="28" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCity -->
+        <test-method status="PASS" signature="testFindByCountryName()[pri:0, instance:br.com.cinq.sample.service.CityServiceImplTest@631330c]" name="testFindByCountryName" duration-ms="2" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByCountryName -->
+        <test-method status="PASS" signature="testGetAllCities()[pri:0, instance:br.com.cinq.sample.service.CityServiceImplTest@631330c]" name="testGetAllCities" duration-ms="0" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCities -->
+      </class> <!-- br.com.cinq.sample.service.CityServiceImplTest -->
+      <class name="br.com.cinq.sample.dao.CityDaoImplTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="199" started-at="2017-06-06T00:09:59Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testFindByName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="186" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFindByName()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="testFindByName" duration-ms="9" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindByName -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testFindByName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="5" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testGetAllCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="108" started-at="2017-06-06T00:09:59Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetAllCities()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="testGetAllCities" duration-ms="8" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCities -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testGetAllCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testGetMatchingCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="185" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGetMatchingCities()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="testGetMatchingCities" duration-ms="7" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMatchingCities -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testGetMatchingCities()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testInsertDuplicates()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="72" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testInsertDuplicates()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="testInsertDuplicates" duration-ms="8" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsertDuplicates -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testInsertDuplicates()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testSaveCity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="setUp" is-config="true" duration-ms="53" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSaveCity()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="testSaveCity" duration-ms="10" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveCity -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void br.com.cinq.sample.dao.CityDaoImplTest.testSaveCity()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:br.com.cinq.sample.dao.CityDaoImplTest@1a8a8f7c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-06-06T00:10:00Z" finished-at="2017-06-06T00:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- br.com.cinq.sample.dao.CityDaoImplTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
