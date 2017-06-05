@@ -1,5 +1,5 @@
 # Spring 4 + Hibernate 4 + MySQL/H2+ Maven Integration
-A REST service build to retrieve list of cities stored in a database. This service provides solution to the problem posted at https://github.com/cinqtechnologies/spring-jpa-jersey by `CINQ Technologies` 
+A REST service build to retrieve list of cities stored in a database.  
 
 Technologies:
 
