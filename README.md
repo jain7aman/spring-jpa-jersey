@@ -1,7 +1,5 @@
 # Spring 4 + Hibernate 4 + MySQL/H2+ Maven Integration
-A REST service build to retrieve list of cities stored in a database.  
-
-Technologies:
+A REST service build to retrieve list of cities stored in a database. The service uses the following technologies: 
 
 - Java
 - RESTFull service
