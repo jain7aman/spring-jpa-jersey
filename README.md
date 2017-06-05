@@ -1,9 +1,9 @@
 # Spring 4 + Hibernate 4 + MySQL/H2+ Maven Integration
-This is the solution to the problem posted at https://github.com/cinqtechnologies/spring-jpa-jersey by ` CINQ Technologies ` 
+A REST service build to retrieve list of cities stored in a database. This service provides solution to the problem posted at https://github.com/cinqtechnologies/spring-jpa-jersey by `CINQ Technologies` 
 
-The solution uses:
+Technologies:
 
-- Java (preferably Java 8 and Functional programming as much as possible)
+- Java
 - RESTFull service
 - Data manipulation layer
 - Spring 4 and Spring-boot
@@ -22,14 +22,15 @@ The service is `idempotent` in inserting new entries, that is, if a country (or 
  	http://localhost:8080/rest/cities[?country=name]
 
  
- *Returns* list of cities present in the database. 
+ *Returns:* list of cities present in the database. 
+
  *Optional* [country]: If present, filters the city list on the bases of specified country name. It searches (case-insensitive search) on part of country name as well.
 
  2. *GET* load sample data present at `src/java/resources/SampleData.csv`
 
  	http://localhost:8080/rest/loadSample
 
- *Returns* the list of cities uploaded from the file.
+ *Returns:* the list of cities uploaded from the file.
 
  JSON Output format [for both GET calls]:
 
@@ -89,11 +90,11 @@ The service is `idempotent` in inserting new entries, that is, if a country (or 
         }
     ]
 
- *Returns* Status of the operation `HTTP 200 OK`
+ *Returns:* status of the operation `HTTP 200 OK`
 
 
 # Instructions to deploy
-1. Open terminal and `cd` to the directory where you to clone the project.
+1. Open terminal and `cd` to the directory where you want to clone the project.
 2. Clone the project using:
 	`git clone https://github.com/jain7aman/spring-jpa-jersey.git`
 3. `cd spring-jpa-jersey` 
@@ -101,7 +102,7 @@ The service is `idempotent` in inserting new entries, that is, if a country (or 
 	`mvn clean install`
 5. `cd target` and copy the `rest.war` file.
 6. Paste the war into `webapps` directory of Apache Tomcat
-7. Start the Tomcat server by going into the bin directory and execute startup.bat [for Windows] or startup.sh [for Linux] file.
+7. Start the Tomcat server by going into the bin directory and execute startup.bat (for Windows) or startup.sh (for Linux) file.
 
 Note: Can also run `mvn verify` to run the test cases.
 
@@ -111,6 +112,6 @@ Note: Can also run `mvn verify` to run the test cases.
 `application.properties` under `spring-jpa-jersey/src/java/resources` for main project
 `application.properties` under `spring-jpa-jersey/src/test/resources` for test cases
 
-- Database schema and tables will automatically be created and the data persists between service invocations. To start with the empty tables every time you deply the service, change value of `hibernate.hbm2ddl.auto` parameter (in `application.properties` file for main project) to `create-drop` or `create`. 
+- Database schema and tables will be created automatically and the data persists between service invocations. To start with the empty tables every time you deploy the service, change value of `hibernate.hbm2ddl.auto` parameter (in `application.properties` file for main project) to `create-drop` or `create`. 
 
 
