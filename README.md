@@ -89,7 +89,7 @@ The service is `idempotent` in inserting new entries, that is, if a country (or 
         }
     ]
 
- *Returns* Status of the operation `Http 200 OK`
+ *Returns* Status of the operation `HTTP 200 OK`
 
 
 # Instructions to deploy
@@ -99,7 +99,7 @@ The service is `idempotent` in inserting new entries, that is, if a country (or 
 3. `cd spring-jpa-jersey` 
 4. Run:
 	`mvn clean install`
-5. Copy the `rest.war` file from under `spring-jpa-jersey/target` directory.
+5. `cd target` and copy the `rest.war` file.
 6. Paste the war into `webapps` directory of Apache Tomcat
 7. Start the Tomcat server by going into the bin directory and execute startup.bat [for Windows] or startup.sh [for Linux] file.
 
