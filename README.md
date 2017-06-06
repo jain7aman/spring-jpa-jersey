@@ -108,6 +108,7 @@ Note: Can also run `mvn verify` to run the test cases.
 - The solution supports MySQL as well as H2 in-memory database. To change the database configurations, edit:
 
 `application.properties` under `spring-jpa-jersey/src/java/resources` for main project
+
 `application.properties` under `spring-jpa-jersey/src/test/resources` for test cases
 
 - Database schema and tables will be created automatically and the data persists between service invocations. To start with the empty tables every time you deploy the service, change value of `hibernate.hbm2ddl.auto` parameter (in `application.properties` file for main project) to `create-drop` or `create`. 
